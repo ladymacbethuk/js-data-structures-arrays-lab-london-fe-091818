@@ -22,7 +22,7 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  return [name, ...drivers]
+  return [name, ...drivers];
 }
 
 
@@ -31,6 +31,6 @@ function removeLastDriver() {
 } 
 
 function removeFirstDriver() {
-  return [drivers.unshift];
+  return drivers.slice(0);
 }
 
