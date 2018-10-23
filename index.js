@@ -31,6 +31,6 @@ function removeLastDriver() {
 } 
 
 function removeFirstDriver() {
-  const copyofdrivers[] = drivers.shift;
+  return [drivers.unshift];
 }
 
