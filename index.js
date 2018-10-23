@@ -27,6 +27,7 @@ function appendDriver(name) {
   copyofdrivers.splice(2, 3, 'steph');
 }
 
+/*
 function prependDriver(name) {
   const copyofdrivers2[] = drivers.splice(0, 1, 'Steph');
 }
@@ -39,4 +40,4 @@ function removeFirstDriver() {
   const copyofdrivers4[] = drivers.slice(0);
 }
 
-
+*/
