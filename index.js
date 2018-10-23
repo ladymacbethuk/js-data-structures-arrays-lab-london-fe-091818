@@ -17,14 +17,10 @@ function destructivelyRemoveFirstDriver() {
   drivers.shift();
 }
 
-/*
-function appendDriver(name) {
-  const copyofdrivers = drivers.splice(2, 3, 'Steph');
-}*/
+
 
 function appendDriver(name) {
-  const copyofdrivers = drivers.splice();
-  copyofdrivers.splice(2, 3, 'steph');
+ return drivers
 }
 
 /*
