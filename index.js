@@ -27,11 +27,11 @@ function prependDriver(name) {
 
 /*
 function removeLastDriver() {
-  const copyofdrivers3[] = drivers.slice(3);
+  const copyofdrivers[] = drivers.slice(3);
 } 
 
 function removeFirstDriver() {
-  const copyofdrivers4[] = drivers.slice(0);
+  const copyofdrivers[] = drivers.slice(0);
 }
 
 */
